@@ -49,5 +49,5 @@ API REST CRUD de productos con Spring Boot, @RestController y ResponseEntity.
 ![post](capturas/post.png)
 *Captura de pantalla: POST /api/productos con nuevo producto creado (201 Created).* 
 
-![put](capturas/put.png)
+![put](capturas/PUT.png)
 *Captura de pantalla: PUT /api/productos/1 actualizando un producto existente (200 OK).*
