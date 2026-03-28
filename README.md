@@ -10,7 +10,7 @@ API REST CRUD de productos con Spring Boot, @RestController y ResponseEntity.
 - PUT /api/productos/{id}
 - DELETE /api/productos/{id}
 
-## CÃƒÂ³digos HTTP
+## Códigos HTTP
 
 - 200 OK en consultas y actualizaciÃƒÂ³n exitosa
 - 201 Created al crear
@@ -22,7 +22,7 @@ API REST CRUD de productos con Spring Boot, @RestController y ResponseEntity.
 - JDK 17+
 - Maven 3.8+
 
-## EjecuciÃƒÂ³n
+## Ejecución
 
 1. mvn spring-boot:run
 2. Probar en <http://localhost:8080/api/productos>
@@ -37,5 +37,17 @@ API REST CRUD de productos con Spring Boot, @RestController y ResponseEntity.
 
 ## Capturas
 
-Guardar respuestas de Postman/curl en capturas/.
+![api-id](capturas/api-productos-id.png)
+*Captura de pantalla: GET /api/productos/1 mostrando un producto específico por ID.*
 
+![productos](capturas/api-productos.png)
+*Captura de pantalla: GET /api/productos listando todos los productos.*
+
+![delete](capturas/delete.png)
+*Captura de pantalla: DELETE /api/productos/1 con respuesta 204 No Content.*
+
+![post](capturas/post.png)
+*Captura de pantalla: POST /api/productos con nuevo producto creado (201 Created).* 
+
+![put](capturas/put.png)
+*Captura de pantalla: PUT /api/productos/1 actualizando un producto existente (200 OK).*
